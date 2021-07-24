@@ -1,0 +1,810 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Дневник 7 "Б"</title>
+	<style type="text/css">
+			table {border:3px solid black; margin:0}
+			td {border:3px solid red; background-color:black; text-align:center; color:yellow }
+			table {width:100%; height:635px; border-collapse:collapse}
+			
+			#mainWindow {width:60%; background-color:yellow; color:black; vertical-align:top}
+			#nazvanie {color:white; font-size:50px; text-shadow: 7px 2px 2px red, 0 0 1em red}
+			p { border:3px solid white}
+			#dnevnik {color:white; border:3px solid green}
+			section {border:3px dashed green; }
+			.dni {color:rgb(0,255,0)}
+			.vichodn {color:white}
+			table.predmeti span {color: rgb(30,490,590)}
+			table.predmeti {width:100%; height:auto; }
+			table.predmeti td {border:3px solid green}
+			h3.dni {margin-bottom: 5px}
+			#kalendar {width:100%; height:auto; border:1px solid green}
+			#kalendar td {color:rgb(30,490,590)}
+		    td#today {background-color:yellow; color:black} 
+			
+			<iframe  frameborder="no" scrolling="no" width="280" height="150" src="https://yandex.ru/time/widget/?geoid=35&lang=ru&layout=horiz&type=analog&face=serif"></iframe>
+			
+	</style>
+	
+</head>
+<body>
+	<table id="bodyy">
+		<tr style="height:100px;">
+		  <td rowspan="2" style="width:300px"> 
+			<table  id="kalendar" >
+				<tr>
+				   <td style="color:silver" colspan="7">
+				   Октябрь` 2021
+				   </td>				  
+				</tr>
+			<tr>
+				   <td>ПН
+				      <td>ВТ
+				     <td>СР
+				    <td>ЧТ
+				    <td>ПТ
+				    <td>СБ
+				       <td>ВС
+				</tr>
+			<tr>
+				   <td>1
+				      <td>2
+				     <td>3
+				    <td>4
+				    <td>5
+				    <td>6
+				       <td>7
+				</tr>
+			<tr>
+				   <td>8
+				      <td>9
+				     <td>10
+				    <td>11
+				    <td>12
+				    <td>13
+				       <td>14
+				</tr>
+			<tr>
+				   <td>15
+				      <td>16
+				     <td>17
+				    <td>18
+				    <td>19
+				    <td id="today">20
+				       <td>21
+				</tr>
+			<tr>
+				   <td>22
+				      <td>23
+				     <td>24
+				    <td>25
+				    <td>26
+				    <td>27
+				       <td>28
+				</tr>
+			<tr>
+				   <td>29
+				      <td>30
+				     <td>31
+				    <td>
+				    <td>
+				    <td>
+				       <td>
+				</tr>
+			
+			</table>
+			</td>
+		  <td > <span id="nazvanie">Готовое домашнее задание</span> </td>
+		  <td>  </td>
+		  
+		</tr>
+		<tr style="height:25px">
+		 <td rowspan="2"  id="mainWindow">
+			<iframe  frameborder="no" scrolling="yes" width="100%" height="600" src="file:///C:/Рабочий стол/Рабочий стол 14ю07ю2021/Сергей/Сайт/picForHTML/heccr12.bmp">
+			</iframe>
+		 
+		<form>
+		<p><label>Имя: <input type="text" ></label></p>
+		<p><label>Текст: <textarea cols="50" rows="10"></textarea></label></p>
+		<p><label>Email: <input type="Email" ></label></p>
+		<p><label>Файл: <input type="file" ></label></p>
+		<p><button type="submit">Отправить </button><button type="reset">Очистить </button></p>
+		
+		
+		
+		
+		</form>
+			
+		 
+		 </td>
+		 <td rowspan="2"  >  </td>
+		  
+		  
+         </tr>
+         <tr>
+		  <td rowspan="2"> 
+			<section> 
+				<h1 id="dnevnik">Дневник</h1>
+				<h3 class="dni" onclick="if(document.getElementsByClassName('predmeti')[0].style.visibility='collapse'){document.getElementsByClassName('predmeti')[0].style.visibility='visible'}else{document.getElementsByClassName('predmeti')[0].style.visibility='collapse'}">Понедельник</h3>
+				<table class="predmeti" >
+					<tr >
+						<td class="one">
+							<span>1</span>
+						</td>
+						<td class="two">
+							<span>Физ-ра</span>
+						</td>
+						<td class="three">
+							<span>-</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>2</span>
+						</td>
+						<td class="two">
+							<span>Биология</span>
+						</td>
+						<td class="three">
+							<span>Параграф 5</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>3</span>
+						</td>
+						<td class="two">
+							<span>Русский</span>
+						</td>
+						<td class="three">
+							<span>Упр. 155</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>4</span>
+						</td>
+						<td class="two">
+							<span>Кубановед.</span>
+						</td>
+						<td class="three">
+							<span>Р.т. стр. 44-46</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>5</span>
+						</td>
+						<td class="two">
+							<span>ИЗО</span>
+						</td>
+						<td class="three">
+							<span>-</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>6</span>
+						</td>
+						<td class="two">
+							<span>Алгебра</span>
+						</td>
+						<td class="three">
+							<span>Упр. 355</span>
+						</td>
+					</tr>
+				</table>
+				<h3 class="dni">Вторник</h3>
+				<table class="predmeti">
+					<tr >
+						<td class="one">
+							<span>1</span>
+						</td>
+						<td class="two">
+							<span>Русский.яз</span>
+						</td>
+						<td class="three">
+							<span>-</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>2</span>
+						</td>
+						<td class="two">
+							<span>ОБЖ</span>
+						</td>
+						<td class="three">
+							<span>Параграф 5</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>3</span>
+						</td>
+						<td class="two">
+							<span>Русский</span>
+						</td>
+						<td class="three">
+							<span>Упр. 155</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>4</span>
+						</td>
+						<td class="two">
+							<span>География</span>
+						</td>
+						<td class="three">
+							<span>Р.т. стр. 44-46</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>5</span>
+						</td>
+						<td class="two">
+							<span>Англ.яз</span>
+						</td>
+						<td class="three">
+							<span>-</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>6</span>
+						</td>
+						<td class="two">
+							<span>История</span>
+						</td>
+						<td class="three">
+							<span>Упр. 355</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>7</span>
+						</td>
+						<td class="two">
+							<span>Алгебра</span>
+						</td>
+						<td class="three">
+							<span>Упр. 355</span>
+						</td>
+					</tr>
+				</table>
+				<h3 class="dni">Среда</h3>
+				<table class="predmeti" >
+					<tr >
+						<td class="one">
+							<span>1</span>
+						</td>
+						<td class="two">
+							<span>Физ-ра</span>
+						</td>
+						<td class="three">
+							<span>-</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>2</span>
+						</td>
+						<td class="two">
+							<span>Биология</span>
+						</td>
+						<td class="three">
+							<span>Параграф 5</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>3</span>
+						</td>
+						<td class="two">
+							<span>Русский</span>
+						</td>
+						<td class="three">
+							<span>Упр. 155</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>4</span>
+						</td>
+						<td class="two">
+							<span>Кубановед.</span>
+						</td>
+						<td class="three">
+							<span>Р.т. стр. 44-46</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>5</span>
+						</td>
+						<td class="two">
+							<span>ИЗО</span>
+						</td>
+						<td class="three">
+							<span>-</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>6</span>
+						</td>
+						<td class="two">
+							<span>Алгебра</span>
+						</td>
+						<td class="three">
+							<span>Упр. 355</span>
+						</td>
+					</tr>
+				</table>
+				<h3 class="dni">Четверг</h3>
+				<table class="predmeti">
+					<tr >
+						<td class="one">
+							<span>1</span>
+						</td>
+						<td class="two">
+							<span>Физ-ра</span>
+						</td>
+						<td class="three">
+							<span>-</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>2</span>
+						</td>
+						<td class="two">
+							<span>Биология</span>
+						</td>
+						<td class="three">
+							<span>Параграф 5</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>3</span>
+						</td>
+						<td class="two">
+							<span>Русский</span>
+						</td>
+						<td class="three">
+							<span>Упр. 155</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>4</span>
+						</td>
+						<td class="two">
+							<span>Кубановед.</span>
+						</td>
+						<td class="three">
+							<span>Р.т. стр. 44-46</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>5</span>
+						</td>
+						<td class="two">
+							<span>ИЗО</span>
+						</td>
+						<td class="three">
+							<span>-</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>6</span>
+						</td>
+						<td class="two">
+							<span>Алгебра</span>
+						</td>
+						<td class="three">
+							<span>Упр. 355</span>
+						</td>
+					</tr>
+				</table>
+				<h3 class="dni">Пятница</h3> 
+				<table class="predmeti">
+					<tr >
+						<td class="one">
+							<span>1</span>
+						</td>
+						<td class="two">
+							<span>Физ-ра</span>
+						</td>
+						<td class="three">
+							<span>-</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>2</span>
+						</td>
+						<td class="two">
+							<span>Биология</span>
+						</td>
+						<td class="three">
+							<span>Параграф 5</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>3</span>
+						</td>
+						<td class="two">
+							<span>Русский</span>
+						</td>
+						<td class="three">
+							<span>Упр. 155</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>4</span>
+						</td>
+						<td class="two">
+							<span>Кубановед.</span>
+						</td>
+						<td class="three">
+							<span>Р.т. стр. 44-46</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>5</span>
+						</td>
+						<td class="two">
+							<span>ИЗО</span>
+						</td>
+						<td class="three">
+							<span>-</span>
+						</td>
+					</tr>
+					<tr >
+						<td class="one">
+							<span>6</span>
+						</td>
+						<td class="two">
+							<span>Алгебра</span>
+						</td>
+						<td class="three">
+							<span>Упр. 355</span>
+						</td>
+					</tr>
+				</table>
+				<h3 class="dni vichodn">Суббота</h3>
+				<h3 class="dni vichodn">Воскресенье</h3>
+				
+			</section>
+		  
+		  
+		  
+		  </td>
+		  	 
+		 </tr>
+         <tr style="height:50px">
+         
+		  <td colspan="2"> &#169; собственность Сережи Закусило
+
+
+		  </td>
+		  
+		 
+		  
+		  
+		 </tr>
+		 </table>
+	</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html> 
